@@ -157,7 +157,25 @@ USE_TZ = True
 CKEDITOR_UPLOAD_PATH = 'upload/'
 
 CKEDITOR_CONFIGS = {
-    'default': {},
+    'default': {
+        'toolbar': (
+            ['Styles', 'Format', 'Font', 'FontSize'],
+            ['Bold', 'Italic', 'Underline', 'Strike'],
+            ['TextColor', 'BGColor', '-', 'Subscript', 'Superscript'],
+            ['NumberedList', 'BulletedList'],
+            ['Link', 'Unlink'],
+            ['Image', 'Table', 'HorizontalRule', '-', 'Smiley', 'SpecialChar'],
+            ['CodeSnippet', 'Source'],
+        ),
+        'width': 'auto',
+        # 添加按钮在这里
+        'toolbar_Custom': [
+            ['NumberedList', 'BulletedList'],
+            ['Blockquote', 'CodeSnippet'],
+        ],
+        # 插件
+        'extraPlugins': ','.join(['codesnippet','widget','lineutils',]),
+    },
     'comment_ckeditor': {
         'toolbar': 'custom',
         'toolbar_custom': [
