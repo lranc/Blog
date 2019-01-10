@@ -28,6 +28,7 @@ class BaseSetting(object):
 class GlobalSettings(object):
     site_title = "lranc"
     site_footer = "lranc"
+    site_url = '/'
     # 收起菜单
     # menu_style = "accordion"
 
