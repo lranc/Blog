@@ -7,8 +7,11 @@
 {% load like_tags %}
 {% block header_extends %}
     <link rel="stylesheet" href="{% static 'css/blog.css' %}">
+    <link rel="stylesheet" href="{% static 'css/prism.css' %}">
+    <script type="text/javascript" src="{% static "ckeditor/static/ckeditor/ckeditor/plugins/prism_patched.min.js" %}"/>
     <script type="text/javascript" src="{% static "ckeditor/ckeditor-init.js" %}"></script>
     <script type="text/javascript" src="{% static "ckeditor/ckeditor/ckeditor.js" %}"></script>
+
 {% endblock %}
 
 {# 页面内容 #}

@@ -164,13 +164,13 @@ CKEDITOR_CONFIGS = {
             ['NumberedList', 'BulletedList'],
             ['Link', 'Unlink'],
             ['Image', 'Table', 'HorizontalRule', '-', 'Smiley', 'SpecialChar'],
-            ['CodeSnippet', 'Source'],
+            ['CodeSnippet','Blockquote', 'Source'],
         ),
         'width': 'auto',
         # 添加按钮在这里
         'toolbar_Custom': [
             ['NumberedList', 'BulletedList'],
-            ['Blockquote', 'CodeSnippet'],
+            ['Blockquote', 'Blockquote', 'CodeSnippet'],
         ],
         # 插件
         'extraPlugins': ','.join(['codesnippet','widget','lineutils',]),
