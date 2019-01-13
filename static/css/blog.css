@@ -16,14 +16,13 @@ div.blog {
     margin-top: 60px;
     margin-bottom: 60px;
     padding: 20px;
-    background-color: rgba(255, 255, 255, 0.67);
+    background-color: rgba(255, 255, 255, 0.8);
     border-radius: 0.3em;
-    -webkit-box-shadow: 0 0 20px rgba(239,188,231,0.5);
     -moz-box-shadow: 0 0 20px rgba(239, 188, 231, 0.5);
 }
 
 div.blog p.blog-info {
-    margin-bottom: 0;
+    margin-top: 10px;
     font-size: 15px;
     text-align: center;
     margin-bottom: 10px;
@@ -41,8 +40,8 @@ ul.blog-info-description li{
 }
 div.blog-content p{
     text-indent: 2em;
-    /*margin-bottom: 2em;*/
-    font-size: 18px;
+    line-height: 2;
+    font-size: 16px;
 }
 div.blog-more {
     margin-top: 1em;
@@ -87,7 +86,7 @@ p#reply_title {
 div.panel.panel-default{
     background-color:transparent;
     border-color: #fff0;
-    font-size: 18px; 
+    font-size: 16px; 
     margin-bottom: 40px;
 }
 
@@ -96,16 +95,15 @@ div.panel.panel-default{
     border-bottom: 1px solid transparent;
     border-top-left-radius: 3px;
     border-top-right-radius: 3px;
-    color: #333;
+    color: #000;
     background-color: #f5f5f5;
     border-color: #ddd;
 }
 
 div.panel-body{
-    background-color: rgba(255, 255, 255, 0.67);
+    background-color: rgba(255, 255, 255, 0.9);
     border-bottom-left-radius: 3px;
     border-bottom-right-radius: 3px;
-    -webkit-box-shadow: 0 0 20px rgba(239,188,231,0.5);
     padding: 15px;
 }
 
@@ -113,15 +111,14 @@ h3{
     text-align: center;
 }
 div#detail_body{
-    background-color: rgba(255, 255, 255, 0.67);
+    background-color: rgba(255, 255, 255, 0.9);
     border-radius: 0.3em;
-    -webkit-box-shadow: 0 0 20px rgba(239,188,231,0.5);
+    padding: 30px;
 }
 
 div#comment_body{
-    background-color: rgba(255, 255, 255, 0.67);
+    background-color: rgba(255, 255, 255, 0.9);
     border-radius: 0.3em;
-    -webkit-box-shadow: 0 0 20px rgba(239,188,231,0.5);
     margin-top: 80px;
     padding-bottom: 50px;
 }
@@ -220,3 +217,16 @@ blockquote {
     border-left-width: 5px;
     margin: 0 0 1rem 2rem;
 }
+
+h3 #title {
+    color: #212529;
+}
+
+.blog p{
+    line-height: 2;
+}
+
+#detail_body h3 a{
+    color: #212529;
+}
+
