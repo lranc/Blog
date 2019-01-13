@@ -23,7 +23,7 @@ div.blog {
 }
 
 div.blog p.blog-info {
-    margin-bottom: 0;
+    margin-top: 10px;
     font-size: 15px;
     text-align: center;
     margin-bottom: 10px;
@@ -41,8 +41,8 @@ ul.blog-info-description li{
 }
 div.blog-content p{
     text-indent: 2em;
-    /*margin-bottom: 2em;*/
-    font-size: 18px;
+    line-height: 2;
+    font-size: 16px;
 }
 div.blog-more {
     margin-top: 1em;
@@ -87,7 +87,7 @@ p#reply_title {
 div.panel.panel-default{
     background-color:transparent;
     border-color: #fff0;
-    font-size: 18px; 
+    font-size: 16px; 
     margin-bottom: 40px;
 }
 
@@ -116,6 +116,7 @@ div#detail_body{
     background-color: rgba(255, 255, 255, 0.67);
     border-radius: 0.3em;
     -webkit-box-shadow: 0 0 20px rgba(239,188,231,0.5);
+    padding: 30px;
 }
 
 div#comment_body{
@@ -220,3 +221,16 @@ blockquote {
     border-left-width: 5px;
     margin: 0 0 1rem 2rem;
 }
+
+h3 #title {
+    color: #212529;
+}
+
+.blog p{
+    line-height: 2;
+}
+
+#detail_body h3 a{
+    color: #212529;
+}
+
